@@ -398,17 +398,6 @@ a:focus {
     }
   }
 
-  &::before {
-    content: "";
-    width: 200px;
-    height: 175px;
-    position: absolute;
-    bottom: 95px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-size: cover;
-    background-image: url(../images/worker.png);
-  }
 }
 
 // end service section
@@ -521,7 +510,7 @@ a:focus {
   select {
     width: 100%;
     border: 0;
-    padding: 15px 12px;
+    padding: 0px 12px;
     background-color: #f2f2f2;
     outline: none;
     margin: 10px 0;

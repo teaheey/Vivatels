@@ -298,12 +298,12 @@ a:focus {
 .service_section .box.b-2 .detail-box {
   width: 60%;
   text-align: right;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .service_section .box.b-2 .detail-box p {
   height: 52px;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .service_section .box.b-2 .detail-box a {
@@ -313,13 +313,13 @@ a:focus {
 .service_section .box.b-3 .detail-box {
   width: 70%;
   margin-left: auto;
-  overflow: hidden;
+ /* overflow: hidden;*/
   text-align: left;
 }
 
 .service_section .box.b-3 .detail-box p {
   height: 52px;
-  overflow: hidden;
+ /* overflow: hidden;*/
 }
 
 .service_section .box.b-3 .detail-box a {
@@ -345,19 +345,6 @@ a:focus {
 
 .service_section .detail-box .btn-box hr {
   background-color: #ff4f5a;
-}
-
-.service_section::before {
-  content: "";
-  width: 200px;
-  height: 175px;
-  position: absolute;
-  bottom: 95px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  background-size: cover;
-  background-image: url(../images/worker.png);
 }
 
 .work_section {
@@ -500,7 +487,7 @@ a:focus {
 .contact_section select {
   width: 100%;
   border: 0;
-  padding: 15px 12px;
+  padding: 12px 12px;
   background-color: #f2f2f2;
   outline: none;
   margin: 10px 0;
