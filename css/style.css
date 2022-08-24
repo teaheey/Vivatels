@@ -661,4 +661,12 @@ a:focus {
 }
 
 /* end footer section*/
+
+/* gallery section*/
+.gallery img
+{
+   max-height: 400px;
+   max-width: 400px;
+}
+/* end gallery section*/
 /*# sourceMappingURL=style.css.map */
