@@ -107,6 +107,14 @@ body {
   margin: 0 auto;
 }
 
+.RULV {
+  color:#ffffff;
+}
+
+.RULV:hover {
+  color:#ff4f5a;
+}
+
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 10px 30px;
   color: #ffffff;
