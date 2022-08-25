@@ -5,7 +5,7 @@ body {
 }
 
 .layout_padding {
-  padding: 75px 0;
+  padding-top: 75px;
 }
 
 .layout_padding2 {
@@ -287,7 +287,7 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 350px;
+  width: 500px;
 }
 
 .service_section {
@@ -301,7 +301,7 @@ a:focus {
 }
 
 .service_section .service_container {
-  padding: 45px 0 75px 0;
+  padding: 45px 0 45px 0;
 }
 
 .service_section .box.b-2 .detail-box {
@@ -340,7 +340,7 @@ a:focus {
 }
 
 .service_section .detail-box {
-  height: 118px;
+  height: 50px;
   margin-top: 10px;
 }
 
@@ -354,6 +354,11 @@ a:focus {
 
 .service_section .detail-box .btn-box hr {
   background-color: #ff4f5a;
+}
+
+.service_section p{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .work_section {
@@ -502,6 +507,10 @@ a:focus {
   margin: 10px 0;
 }
 
+.contact_section button{
+  margin-bottom: 50px;
+}
+
 .contact_section input::-webkit-input-placeholder,
 .contact_section select::-webkit-input-placeholder {
   color: #3a3a3a;
@@ -591,6 +600,10 @@ a:focus {
   color: #ffffff;
 }
 
+.info_section .container{
+  padding-bottom: 50px;
+}
+
 .info_section a {
   color: #ffffff;
 }
@@ -675,7 +688,7 @@ a:focus {
 .gallery img
 {
    max-height: 400px;
-   max-width: 400px;
+   max-width: 370px;
 }
 /* end gallery section*/
 /*# sourceMappingURL=style.css.map */
