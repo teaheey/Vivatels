@@ -687,8 +687,17 @@ a:focus {
 /* gallery section*/
 .gallery img
 {
+   
    max-height: 400px;
    max-width: 370px;
+   
+   padding: 5px;
+   transition: 0.5s;
+}
+
+.gallery img:hover
+{
+   transform: scale(1.1);
 }
 /* end gallery section*/
 /*# sourceMappingURL=style.css.map */
