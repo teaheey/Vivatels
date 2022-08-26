@@ -717,7 +717,7 @@ a:focus {
   
   border-radius: 5px;
   box-shadow: 3px 3px 5px lightslategray;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .top-content label{
