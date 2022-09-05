@@ -720,6 +720,10 @@ a:focus {
   padding-bottom: 50px;
 }
 
+h3{
+  margin-bottom: 50px;
+}
+
 .top-content label{
   display: inline-block;
   height: 100%;

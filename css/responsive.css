@@ -32,9 +32,9 @@
       }
         .top-content{
             display: grid;
-            grid-template-columns: repeat(3,1fr);
-            height: 100px;
-            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            height: 130px;
+            width: 90%;
             margin: auto;
             margin-bottom: 30px;
           }
@@ -180,8 +180,6 @@
     .slider_section .detail-box h1 {
         font-size: 3rem;
     }
-
-    element {}
 
     .custom_heading-container h3 {
 
