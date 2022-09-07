@@ -17,9 +17,9 @@ $( document ).ready(function() {  
        if($(this).data('type') == 'all')
        {
         $('.menu label').css('text-decoration', 'none');
-        $('.menu label').css('font-size', '15px');
+        $('.menu label').css('font-size', '18px');
         $(this).css('text-decoration', 'underline #ff4f5a 3px');
-        $(this).css('font-size', '18px');
+        $(this).css('font-size', '20px');
         //show all photos
         $('.gallery a').fadeOut();
         $('.gallery a').fadeIn("slow");
@@ -30,9 +30,9 @@ $( document ).ready(function() {  
         $('.gallery').find('.' + $(this).data('type')).fadeIn("slow");
         //style selected gallery section
         $('.menu label').css('text-decoration', 'none');
-        $('.menu label').css('font-size', '15px');
+        $('.menu label').css('font-size', '18px');
         $(this).css('text-decoration', 'underline #ff4f5a 3px');
-        $(this).css('font-size', '18px');
+        $(this).css('font-size', '20px');
        }
 
     });

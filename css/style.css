@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #000000;
   background-color: #ffffff;
+  font-size: 18px;
 }
 
 .layout_padding {
@@ -731,7 +732,7 @@ h3{
   margin: 0 50px;
   line-height: 60px;
   align-items: center;
-  font-size: 15px;
+  
   cursor: pointer;
   transition: .3s;
   font-weight: bold;
