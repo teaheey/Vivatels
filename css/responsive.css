@@ -1,11 +1,11 @@
-@media (max-width: 1520px) {
+@media (max-width: 1420px) {
     .gallery {
         grid-template-columns: repeat(2,1fr);
       }
         .top-content{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            height: 150px;
+            height: 110px;
             width: 80%;
             margin: auto;
             margin-bottom: 30px;
@@ -33,7 +33,7 @@
         .top-content{
             display: grid;
             grid-template-columns: repeat(2,1fr);
-            height: 150px;
+            height: 100px;
             width: 90%;
             margin: auto;
             margin-bottom: 30px;
@@ -107,6 +107,10 @@
     .client_section .client_container {
         width: 100%;
     }
+    .top-content{
+        height: 150px;
+      }
+      
 }
 
 @media (max-width: 576px) {
