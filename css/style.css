@@ -499,6 +499,7 @@ a:focus {
 }
 
 .contact_section input,
+.contact_section textarea,
 .contact_section select {
   width: 100%;
   border: 0;
@@ -513,21 +514,25 @@ a:focus {
 }
 
 .contact_section input::-webkit-input-placeholder,
+.contact_section textarea::-webkit-input-placeholder,
 .contact_section select::-webkit-input-placeholder {
   color: #3a3a3a;
 }
 
 .contact_section input:-ms-input-placeholder,
+.contact_section textarea:-ms-input-placeholder,
 .contact_section select:-ms-input-placeholder {
   color: #3a3a3a;
 }
 
 .contact_section input::-ms-input-placeholder,
+.contact_section textarea::-ms-input-placeholder,
 .contact_section select::-ms-input-placeholder {
   color: #3a3a3a;
 }
 
 .contact_section input::placeholder,
+.contact_section textarea::placeholder,
 .contact_section select::placeholder {
   color: #3a3a3a;
 }
@@ -754,4 +759,59 @@ h3{
 
 
 /* end gallery section*/
+
+/* Login form */
+li img{
+  width: 30px;
+  margin-top: 7px;
+  margin-left: 20px;
+  
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: right;
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  padding: 5px;
+  border: 1px solid #888;
+  width: 35%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content button:hover {
+  background-color: #ff4f5a;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* End login form */
 /*# sourceMappingURL=style.css.map */

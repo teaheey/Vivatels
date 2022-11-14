@@ -64,6 +64,32 @@
                 <li class="nav-item">
                   <a class="nav-link" href="gallery.html"> Галерея </a>
                 </li>
+                <li>
+                  <!-- Button to open the modal login form -->
+                  <img src="../images/login.png" onclick="document.getElementById('id01').style.display='block'"></img>
+
+                  <!-- The Modal -->
+                  <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                  class="close" title="Close Modal">&times;</span>
+
+                    <!-- Modal Content -->
+                    <form class="modal-content animate" action="/action_page.php">
+                      <div class="container">
+                        <label for="uname"><b>Имя пользователя</b></label>
+                        <input type="text" placeholder="" name="uname" required>
+                      </div>
+                      <div class="container">
+                        <label for="psw"><b>Пароль</b></label>
+                        <input type="password" placeholder="" name="psw" required>
+                      </div>
+                      <div class="container" style="background-color:#f1f1f1">
+                        <button type="submit">Войти</button>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Вернуться</button>
+                      </div>
+                    </form>
+                  </div>
+            </li>
               </ul>
             </div>
           </div>
@@ -108,7 +134,7 @@
               </select>
             </div>
             <div>
-              <input type="text" name="content" class="message-box" placeholder="Сообщение" required />
+              <textarea type="text" name="content" class="message-box" placeholder="Сообщение" required ></textarea>
             </div>
             <div class="d-flex justify-content-center">
               <button>Отправить</button>
